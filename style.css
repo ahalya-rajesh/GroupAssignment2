@@ -46,6 +46,7 @@ nav a {
 section:nth-child(3) { /* Target the "Our Vision" section */
     margin-top: 50px; /* Add margin to the top */
        
+       
 /* Hero Section Styles */
 .hero {
     text-align: center;
