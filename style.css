@@ -94,9 +94,9 @@ nav a {
 }
 
 @keyframes runningDog {
-    0% { transform: translateX(0); }
-    50% { transform: translateX(20px); }
-    100% { transform: translateX(0); }
+    0% { transform: translateX(100vw); } /* Start off-screen to the right */
+    100% { transform: translateX(-100vw); } /* End off-screen to the left */
+}
 }
 section iframe {
     margin-bottom: 20px;
