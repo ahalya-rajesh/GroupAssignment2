@@ -22,47 +22,44 @@ a:hover {
 
 /* Header Styles */
 .logo {
-    width: 250px; /* Adjust the size as needed */
-    height: 250px; /* Adjust the size as needed */
-    margin-right: 10px; /* Add space between the logo and the title */
-    vertical-align: middle; /* Align the logo vertically with the title */
+    width: 100px; /* Reduced logo size */
+    height: 100px; /* Reduced logo size */
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 header {
-    display: flex; /* Use flexbox to align the logo and title */
-    align-items: center; /* Align items vertically in the center */
-     justify-content: center; /* Center items horizontally */
-    /* ... other header styles ... */
-    background-color: #228B22; /* Semi-transparent white header */
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #228B22;
+    padding: 10px; /* Reduced padding */
     text-align: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 100;
-    margin-bottom: 30px; /* Add margin to the bottom of the first header */
+    margin-bottom: 30px;
 }
 
 header h1 {
     margin: 0;
     font-size: 2em;
     color: white;
-       background-color: rgba(34, 139, 34, 0.5); /* Translucent forest green */
+    background-color: rgba(34, 139, 34, 0.5);
     padding: 10px;
     border-radius: 5px;
     display: inline-block;
-    margin: 0;
-    color: white; /* Add this line to make the text white */
 }
 
 .hero h2 {
-    background-color: rgba(34, 139, 34, 0.5); /* Translucent forest green */
+    background-color: rgba(34, 139, 34, 0.5);
     padding: 10px;
     border-radius: 5px;
     display: inline-block;
     margin: 0;
-    color: black; /* Add this line to make the text black */
+    color: black;
 }
 
 header h1 {
