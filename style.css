@@ -31,6 +31,7 @@ a:hover {
 header {
     display: flex; /* Use flexbox to align the logo and title */
     align-items: center; /* Align items vertically in the center */
+     justify-content: center; /* Center items horizontally */
     /* ... other header styles ... */
     background-color: #228B22; /* Semi-transparent white header */
     padding: 20px;
@@ -60,6 +61,7 @@ nav a {
     text-align: center;
     padding: 20px 20px;
     /* background-color: white; Lighter Gray for Contrast */
+
 }
 
 .hero img {
@@ -71,9 +73,10 @@ nav a {
 .hero h2 {
  /* ... other h2 styles ... */
     background-color: rgba(34, 139, 34, 0.5); /* Translucent forest green */
-    padding: 10px; /* Add padding for spacing */
-    border-radius: 5px; /* Add rounded corners */
-    display: inline-block; /* Make the box fit the content */
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0; /* Remove default margin */
 }
 
 .hero p {
