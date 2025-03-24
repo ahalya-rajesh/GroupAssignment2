@@ -1,15 +1,14 @@
 /* Reset and Basic Styles */
 body {
-    font-family: 'Arial', sans-serif;
+       font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     color: #333;
-    background: linear-gradient(135deg, #ff99cc, #66ccff); /* Pink to light blue gradient */
+    background-image: url('Sunday Afternoon La Grande Jatte but with Dogs.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    /* Optional: Add a repeating background image */
-    /* background-image: url('YOUR_REPEATING_BACKGROUND_IMAGE_URL'); */
-    /* background-repeat: repeat; */
 }
 
 a {
