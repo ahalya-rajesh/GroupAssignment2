@@ -48,7 +48,7 @@ nav a {
 .hero {
     text-align: center;
     padding: 30px 20px;
-    background-color: white; /* Lighter Gray for Contrast */
+    /* background-color: white; Lighter Gray for Contrast */
 }
 
 .hero img {
