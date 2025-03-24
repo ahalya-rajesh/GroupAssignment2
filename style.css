@@ -43,9 +43,6 @@ nav a {
     font-weight: 500;
 }
 
-section:nth-child(3) { /* Target the "Our Vision" section */
-    margin-top: 50px; /* Add margin to the top */
-       
        
 /* Hero Section Styles */
 .hero {
