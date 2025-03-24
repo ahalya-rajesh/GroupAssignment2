@@ -126,15 +126,6 @@ footer {
 /* Cartoon Dog Animation (Example) */
 .running-dog {
     /* Replace with your cartoon dog image */
-        background-size: contain;
-    background-repeat: no-repeat;
-    width: 100px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed */
-    position: relative; /* Required for animation */
-    animation: runningDog 2s linear infinite;
-}
-.running-dog {
-    /* Replace with your cartoon dog image */
     background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fcartoon-dog-png&psig=AOvVaw3KXGtnqFgGvhp6t8E8bq3K&ust=1742886533247000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwidp-22lKKMAxWAT2wGHQDVIhgQjRx6BAgAEBk');
     background-size: contain;
     background-repeat: no-repeat;
@@ -142,12 +133,6 @@ footer {
     height: 100px; /* Adjust as needed */
     position: relative; /* Required for animation */
     animation: runningDog 2s linear infinite;
-}
-
-@keyframes runningDog {
-    0% { transform: translateX(0); }
-    50% { transform: translateX(20px); }
-    100% { transform: translateX(0); }
 }
 
 @keyframes runningDog {
