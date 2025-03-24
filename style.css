@@ -86,12 +86,17 @@ section iframe {
     margin-bottom: 20px;
 }
 
+section h2, section p, section ul, section li {
+    color: white; /* Make the font white */
+}
+
 section {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
     /* Or, use a semi-transparent green: */
     /* background-color: rgba(144, 238, 144, 0.8); */
 }
+
 
 /* Footer Styles */
 footer {
