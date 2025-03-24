@@ -22,8 +22,8 @@ a:hover {
 
 /* Header Styles */
 .logo {
-    width: 100px; /* Adjust the size as needed */
-    height: 100px; /* Adjust the size as needed */
+    width: 250px; /* Adjust the size as needed */
+    height: 250px; /* Adjust the size as needed */
     margin-right: 10px; /* Add space between the logo and the title */
     vertical-align: middle; /* Align the logo vertically with the title */
 }
@@ -78,6 +78,7 @@ nav a {
 
 .hero h2 {
  /* ... other h2 styles ... */
+       
 }
 
 .hero p {
