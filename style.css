@@ -81,7 +81,23 @@ nav a {
     transform: scale(1.1); /* Slightly enlarge the button on hover */
     transition: transform 0.3s ease; /* Smooth transition */
 }
+/* Cartoon Dog Animation (Example) */
+.running-dog {
+    /* Replace with your cartoon dog image */
+    background-image: url('running dog.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    position: relative; /* Required for animation */
+    animation: runningDog 2s linear infinite;
+}
 
+@keyframes runningDog {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(20px); }
+    100% { transform: translateX(0); }
+}
 section iframe {
     margin-bottom: 20px;
 }
@@ -128,23 +144,6 @@ footer {
     margin-bottom: 10px;
 }
 
-/* Cartoon Dog Animation (Example) */
-.running-dog {
-    /* Replace with your cartoon dog image */
-    background-image: url('running dog.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed */
-    position: relative; /* Required for animation */
-    animation: runningDog 2s linear infinite;
-}
-
-@keyframes runningDog {
-    0% { transform: translateX(0); }
-    50% { transform: translateX(20px); }
-    100% { transform: translateX(0); }
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {
