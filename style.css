@@ -30,6 +30,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 100;
+    margin-bottom: 30px; /* Add margin to the bottom of the first header */
 }
 
 header h1 {
@@ -47,7 +48,7 @@ nav a {
 /* Hero Section Styles */
 .hero {
     text-align: center;
-    padding: 30px 20px;
+    padding: 20px 20px;
     /* background-color: white; Lighter Gray for Contrast */
 }
 
